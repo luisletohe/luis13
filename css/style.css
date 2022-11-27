@@ -1,0 +1,174 @@
+*{margin: 0;
+padding: 0;}
+
+
+h2{color: rgb(243, 245, 241);
+    text-align: center;
+    margin: 2px 2px 2px 2px;
+    background-image: url(../img/logo1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed}
+    h2{font-style: italic;}
+/*----HEADER----*/
+header 
+{background-color: rgb(48, 46, 45);
+background-image: url(../img/logo1.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+display: flex;
+flex-direction: row;
+justify-content:space-evenly;
+flex-wrap:wrap;
+position: sticky;}
+
+header a 
+{text-decoration:none;
+text-align: center;
+margin: 2px 2px 2px 2px;}
+
+header a img
+{width: 320px;
+height: 350px;}
+
+header  nav ul 
+{list-style: none;
+text-align: center;}
+
+header a h1
+{color: rgb(2, 12, 12);
+background-image: url(../img/logo1.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+font-style: italic;
+
+}
+
+header nav ul li {display: inline-block;
+margin: 25px;}
+
+header nav ul li a
+{color: beige;
+font-style: italic;}
+
+/*----MAIN-----*/
+main section
+{background-image:url(../img/logo1.jpg);
+width: 100%;
+height: 100%;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover ;
+background-attachment: fixed;
+}
+
+
+main div section img
+{width: 410px;
+height: 430px;}
+
+.langosta
+{text-align: center;}
+.langosta ul a 
+{color: azure;
+font-size: 30px;
+font-style: italic;
+text-decoration: none;}
+
+main div section.langosta p
+{color: aliceblue;
+font-size: 20px;}
+
+
+.salmon
+{text-align: center;}
+.salmon ul a
+{color: azure;
+font-size: 30px;
+font-style: italic;
+text-decoration: none;}
+
+main div section.salmon p
+{color: aliceblue;
+font-size: 20px;}
+
+.pulpo
+{text-align: center;}
+.pulpo ul a
+{color: azure;
+font-size: 30px;
+font-style: italic;
+text-decoration: none;}
+
+main div section.pulpo p
+{color: aliceblue;
+font-size: 20 px;}
+
+.cangrejo
+{text-align: center;}
+.cangrejo ul a 
+{color: azure;
+font-size: 30px;
+font-style: italic;
+text-decoration:none;}
+
+main div section.cangrejo 
+{color: aliceblue;
+font-size: 20px;}
+
+/*----FOOTER---*/
+footer a img {
+    width: 55px;
+    height: 55px;
+    margin: 2px 2px 2px 2px ;}
+
+footer {background-color: black;
+background-image: url(../img/logo1.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+display: flex;
+flex-direction: row;
+justify-content:space-evenly;
+flex-wrap:wrap;}
+
+footer 
+{color: antiquewhite;}
+
+/*----NOSOTRO.HTML---*/
+
+
+/*----ENCICLOPEDIA.HTML---*/
+
+.en {
+    border: 0px solid;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tortuga
+{
+    border: 1px;
+    padding: 5px;
+}
+
+
+
+
+
+
+/*----CONTACTO.HTML---*/
+
+/*----BIOGRAFIA.HTML---*/
+
+/*----MEDIA QUERY MOBILE---*/
+
