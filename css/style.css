@@ -138,9 +138,6 @@ flex-direction: row;
 justify-content:space-evenly;
 flex-wrap:wrap;}
 
-footer 
-{color: antiquewhite;}
-
 /*----NOSOTRO.HTML---*/
 
 
@@ -150,8 +147,8 @@ footer
     border: 0px solid;
     margin: 0px;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
