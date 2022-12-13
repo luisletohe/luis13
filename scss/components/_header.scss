@@ -1,0 +1,41 @@
+header{background-color: rgb(48, 46, 45);
+    background-image: url(../img/logo1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    position: sticky;
+    a{  text-decoration:none;
+        text-align: center;
+        margin: 2px 2px 2px 2px;
+    img {width: 320px;
+        height: 350px;
+        h1{color: rgb(2, 12, 12);
+            background-image: url(../img/logo1.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            font-style: italic;
+            nav {
+                ul {list-style: none;
+                    text-align: center;
+                    li {display: inline-block;
+                        margin: 25px;
+                        a {color: beige;
+                            font-style: italic;
+
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    }
+}
