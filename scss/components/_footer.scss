@@ -1,0 +1,18 @@
+footer{background-color: black;
+    background-image: url(../img/logo1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    a {
+        img{    width: 55px;
+            height: 55px;
+            margin: 2px 2px 2px 2px ;
+
+        }
+    }
+}
